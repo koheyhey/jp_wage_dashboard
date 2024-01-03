@@ -17,7 +17,7 @@ df_pref_category = pd.read_csv(path_pref_category, encoding='shift_jis')
 
 st.header('■2019年：一人当たり平均賃金のヒートマップ')
 
-path_lat_lon = './drive/MyDrive/Colab_Notebooks/analysis_jp_wage/csv_data/pref_lat_lon.csv'
+path_lat_lon = 'Desktop/kohei/Python/workspace/jp_wage_dashboard/pref_lat_lon.csv'
 jp_lat_lon = pd.read_csv(path_lat_lon)
 jp_lat_lon = jp_lat_lon.rename(columns={'pref_name': '都道府県名'})
 
