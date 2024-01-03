@@ -5,10 +5,10 @@ import plotly.express as px
 
 st.title('日本の賃金データのダッシュボード')
 
-path_jp_ind = './drive/MyDrive/Colab_Notebooks/analysis_jp_wage/csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv'
-path_jp_category = './drive/MyDrive/Colab_Notebooks/analysis_jp_wage/csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv'
-path_pref_ind = './drive/MyDrive/Colab_Notebooks/analysis_jp_wage/csv_data/雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv'
-path_pref_category = './drive/MyDrive/Colab_Notebooks/analysis_jp_wage/csv_data/雇用_医療福祉_一人当たり賃金_都道府県_大分類.csv'
+path_jp_ind = './csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv'
+path_jp_category = './csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv'
+path_pref_ind = './csv_data/雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv'
+path_pref_category = './csv_data/雇用_医療福祉_一人当たり賃金_都道府県_大分類.csv'
 
 df_jp_ind = pd.read_csv(path_jp_ind, encoding='shift_jis')
 df_jp_category = pd.read_csv(path_jp_category, encoding='shift_jis')
